@@ -163,4 +163,9 @@ img {
 /* Tereza*/
 .Tereza__picture {
   max-width: 50%;
+}
+
+.Tereza__picture___item {
+  -o-object-fit: contain;
+     object-fit: contain;
 }/*# sourceMappingURL=style.css.map */
