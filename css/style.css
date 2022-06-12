@@ -200,24 +200,23 @@ img {
     text-align: justify;
   }
 }
-/*Projects*/
-.Projects__first, .Projects__second {
+/*Education*/
+.Education__first, .Education__second {
   max-width: 50%;
   margin: 0 auto;
 }
 
-.Projects__first__list, .Projects__second__list {
+.Education__first__list, .Education__second__list {
   list-style: none;
   padding: 0;
 }
 
-.Projects__first__item, .Projects__second__item {
+.Education__first__item, .Education__second__item {
   text-align: start;
   padding: 5px;
 }
 
-.Projects__third__photo {
-  border: 1px solid #212529;
+.Education__third__photo {
   -o-object-fit: cover;
      object-fit: cover;
   width: 100%;
@@ -228,11 +227,57 @@ img {
     font-size: 18px;
   }
 
-  .Projects__second {
+  .Education__second {
     max-width: 100%;
   }
 
-  .Projects__container {
+  .Education__container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+    margin-bottom: 30px;
+    align-items: center;
+  }
+}
+/*Work*/
+.Work__first, .Work__second {
+  max-width: 50%;
+  margin: 0 auto;
+}
+
+.Work__first__list, .Work__second__list {
+  list-style: none;
+  padding: 0;
+}
+
+.Work__first__item, .Work__second__item {
+  text-align: start;
+  padding: 5px;
+}
+
+.Work__pictures {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 15px;
+}
+
+.Work__pictureTwo, .Work__pictureOne {
+  max-height: 300px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin-top: 30px;
+}
+
+@media screen and (min-width: 950px) {
+  body {
+    font-size: 18px;
+  }
+
+  .Education__second {
+    max-width: 100%;
+  }
+
+  .Education__container {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 15px;
