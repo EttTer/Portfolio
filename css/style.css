@@ -228,11 +228,15 @@ img {
     font-size: 18px;
   }
 
-  .Projects__third__photo {
-    width: 50%;
+  .Projects__second {
+    max-width: 100%;
   }
 
   .Projects__container {
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+    margin-bottom: 30px;
+    align-items: center;
   }
 }/*# sourceMappingURL=style.css.map */

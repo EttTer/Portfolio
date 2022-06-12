@@ -219,9 +219,17 @@ margin: 0 auto;}
 {
  body {font-size: 18px;}
 
- .Projects__third__photo {width: 50%;}
- 
- .Projects__container {display: flex;}
-   }
+ .Projects__second {max-width: 100%;
+}
 
+
+.Projects__container {display: grid;
+grid-template-columns: 1fr 1fr;
+gap: $space;
+margin-bottom: $doublespace;
+align-items: center;}
+
+
+}
+ 
    
