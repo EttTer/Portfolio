@@ -190,3 +190,38 @@ text-align: justify;}
 
 }
  
+/*Projects*/
+
+.Projects__first, .Projects__second {max-width: 50%;
+margin: 0 auto;}
+.Projects__first__list, .Projects__second__list {
+  list-style: none;
+  padding: 0;
+ }
+ 
+ .Projects__first__item, .Projects__second__item {
+ text-align: start;
+ padding: 5px;}
+
+  
+ 
+
+ .Projects__third__photo {
+    border: 1px solid $primarycolor;
+    object-fit: cover;
+    width: 100%;
+  }
+
+ 
+
+
+ @media screen and (min-width:950px)
+{
+ body {font-size: 18px;}
+
+ .Projects__third__photo {width: 50%;}
+ 
+ .Projects__container {display: flex;}
+   }
+
+   
