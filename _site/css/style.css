@@ -114,7 +114,7 @@ img {
   }
 }
 /*Footer*/
-.footer {
+.Footer {
   max-height: 100px;
 }
 
@@ -201,17 +201,20 @@ img {
   }
 }
 /*Education*/
-.Education__first, .Education__second {
+.Education__first,
+.Education__second {
   max-width: 50%;
   margin: 0 auto;
 }
 
-.Education__first__list, .Education__second__list {
+.Education__first__list,
+.Education__second__list {
   list-style: none;
   padding: 0;
 }
 
-.Education__first__item, .Education__second__item {
+.Education__first__item,
+.Education__second__item {
   text-align: start;
   padding: 5px;
 }
@@ -240,17 +243,20 @@ img {
   }
 }
 /*Work*/
-.Work__first, .Work__second {
+.Work__first,
+.Work__second {
   max-width: 50%;
   margin: 0 auto;
 }
 
-.Work__first__list, .Work__second__list {
+.Work__first__list,
+.Work__second__list {
   list-style: none;
   padding: 0;
 }
 
-.Work__first__item, .Work__second__item {
+.Work__first__item,
+.Work__second__item {
   text-align: start;
   padding: 5px;
 }
@@ -261,7 +267,8 @@ img {
   gap: 15px;
 }
 
-.Work__pictureTwo, .Work__pictureOne {
+.Work__pictureTwo,
+.Work__pictureOne {
   max-height: 300px;
   -o-object-fit: cover;
      object-fit: cover;
@@ -284,7 +291,8 @@ img {
     max-width: 100%;
   }
 
-  .Work__upper__container, .Work__lower__container {
+  .Work__upper__container,
+.Work__lower__container {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 15px;
@@ -368,31 +376,31 @@ img {
 }
 /*Odkazy*/
 /*.Menu__link {
-  display: block;
-  padding: space.$space;
-  font-family: fonts.$font-special;
-  font-size: 12px;
-  font-weight: bold;
-  text-decoration: none;
-  color: colors.$primary;
-  text-align: center;
-}
+      display: block;
+      padding: space.$space;
+      font-family: fonts.$font-special;
+      font-size: 12px;
+      font-weight: bold;
+      text-decoration: none;
+      color: colors.$primary;
+      text-align: center;
+    }
 
-.Menu__link:hover {
-  background-color: colors.$secondary;
-  color: colors.$white;
-  padding: space.$space;
-  transform: scale(1.4);
-}
+    .Menu__link:hover {
+      background-color: colors.$secondary;
+      color: colors.$white;
+      padding: space.$space;
+      transform: scale(1.4);
+    }
 
-.Menu__item--active {
-  background-color: colors.$secondary;
-  /*transform: scale(1.2);
+    .Menu__item--active {
+      background-color: colors.$secondary;
+      /*transform: scale(1.2);
 
 
-.Menu__item--active a {
-  color:colors.$white;
-}*/
+    .Menu__item--active a {
+      color:colors.$white;
+    }*/
 a {
   text-decoration: none;
   color: rgb(255, 255, 255);
