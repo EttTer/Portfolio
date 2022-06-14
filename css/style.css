@@ -365,4 +365,48 @@ img {
   .Contact {
     margin: 100px auto 200px auto;
   }
+}
+/*Odkazy*/
+/*.Menu__link {
+  display: block;
+  padding: space.$space;
+  font-family: fonts.$font-special;
+  font-size: 12px;
+  font-weight: bold;
+  text-decoration: none;
+  color: colors.$primary;
+  text-align: center;
+}
+
+.Menu__link:hover {
+  background-color: colors.$secondary;
+  color: colors.$white;
+  padding: space.$space;
+  transform: scale(1.4);
+}
+
+.Menu__item--active {
+  background-color: colors.$secondary;
+  /*transform: scale(1.2);
+
+
+.Menu__item--active a {
+  color:colors.$white;
+}*/
+a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  transform: scale(5);
+}
+
+a:hover {
+  color: #adb5bd;
+}
+
+.Header__menu__item--active a {
+  color: #adb5bd;
+}
+
+.Header__menu__link {
+  padding: 7.5px;
 }/*# sourceMappingURL=style.css.map */

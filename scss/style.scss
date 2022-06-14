@@ -341,3 +341,52 @@ margin: 0;}
     }
     .Contact{margin: 100px auto 200px auto;}
     }
+
+    
+
+    /*Odkazy*/
+    
+    
+   
+    
+    //.Menu__item:not(:last-child) {
+      // border-right: 2px solid colors.$secondary;
+      // max-height: 50px;
+     //}
+    
+    /*.Menu__link {
+      display: block;
+      padding: space.$space;
+      font-family: fonts.$font-special;
+      font-size: 12px;
+      font-weight: bold;
+      text-decoration: none;
+      color: colors.$primary;
+      text-align: center;
+    }
+    
+    .Menu__link:hover {
+      background-color: colors.$secondary;
+      color: colors.$white;
+      padding: space.$space;
+      transform: scale(1.4);
+    }
+  
+    .Menu__item--active {
+      background-color: colors.$secondary;
+      /*transform: scale(1.2);
+    
+  
+    .Menu__item--active a {
+      color:colors.$white;
+    }*/
+
+     a{text-decoration: none;
+    color: $secondarycolor; transform: scale(5);}
+
+    a:hover {color: $contrastcolor;
+    }
+
+.Header__menu__item--active a {color: $contrastcolor;}
+//Když tohle zakomentuju a posunu {{ v .njk, pak stejné jako další, ale graficky divné
+  .Header__menu__link {padding: $space/2;}
