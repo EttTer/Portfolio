@@ -351,7 +351,7 @@ img {
 }
 /*Kontakt*/
 .Contact {
-  width: 800px;
+  width: 400px;
   height: 250px;
   margin: 0 auto 50px auto;
 }
@@ -367,6 +367,7 @@ img {
   }
 
   .Contact {
+    width: 800px;
     margin: 100px auto 200px auto;
   }
 }
@@ -411,6 +412,6 @@ a:hover {
   color: #adb5bd;
 }
 
-.Header__menu__link {
-  padding: 7.5px;
-}/*# sourceMappingURL=style.css.map */
+/*.Header__menu__link {
+  padding: $space/2;
+}*//*# sourceMappingURL=style.css.map */
