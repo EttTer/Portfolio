@@ -101,8 +101,11 @@ img {
     flex: 1 1 calc(100/6);
     text-align: end;
     padding: 15px 15px 5px 15px;
+    
   }
-
+.Header__menu__link{
+  padding: 7.5px;
+}
   body {
     font-size: 18px;
   }
@@ -151,7 +154,7 @@ img {
 .Footer__menu__item {
   flex: 1 1 calc(100/6);
   text-align: end;
-  padding: 5px;
+  padding: 15px 15px 5px 15px;
 }
 
 
